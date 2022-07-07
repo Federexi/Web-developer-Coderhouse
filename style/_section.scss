@@ -1,0 +1,112 @@
+
+section {
+    position: absolute;
+    display: grid;
+    background-color: #FFFFFF;
+    margin-top: -120px;
+    margin-left: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'lato';
+    grid-template-columns: 136px 226px;
+    grid-template-rows: 50px 50px 50px;
+    column-gap: 10px;
+
+    img {
+        grid-column: 1/2;
+        grid-row: 1/4;
+        width: 130px;
+        height: 70px;
+        justify-content: center;
+        align-self: center;
+    }
+
+    p {
+        font-size: 15px;
+        margin-top: 1px;
+        font-weight: bold;
+    }
+
+    a {
+        background-color: $background;
+        border-radius: 20px;
+        margin-right: auto;
+        padding: 10px 64px 10px 64px;
+        text-decoration: none;
+        color: #FFFF;
+        box-shadow: 1px 1px 5px black;
+        transition: 0s color background-color;
+
+        &:hover {
+            transition-delay: 0.12s;
+            color: #dbd9d9;
+            background-color: #1f2d52;
+        }
+        
+    }
+    
+}
+
+section2 {
+    position: absolute;
+    display: grid;
+    background-color: #FFFFFF;
+    margin-top: -120px;
+    margin-left: 750px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'lato';
+    grid-template-columns: 136px 226px;
+    grid-template-rows: 50px 50px 50px;
+    column-gap: 10px;
+
+    img{
+        grid-column: 1/2;
+        grid-row: 1/4;
+        margin-left: 20px;
+        width: 90px;
+        height: 70px;
+        justify-content: center;
+        align-self: center;
+    }
+
+    p {
+        font-size: 15px;
+        margin-top: 1px;
+        font-weight: bold;
+    }
+
+    a {
+        background-color: $background;
+        border-radius: 20px;
+        margin-right: auto;
+        padding: 10px 64px 10px 64px;
+        text-decoration: none;
+        color: #FFFF;
+        box-shadow: 1px 1px 5px black;
+        transition: 0s color background-color;
+
+        &:hover {
+            transition-delay: 0.12s;
+            color: #dbd9d9;
+            background-color: #1f2d52;
+        }
+        
+    }
+}
+
+.h2 {
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 27px;   
+}
+
+.tarjetita {
+    @extend .h2;
+    font-size: 28.5px; 
+}
+
+.empresa {
+    @extend .h2;
+    font-size: 28px;
+}

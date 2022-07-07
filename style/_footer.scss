@@ -1,0 +1,46 @@
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $background;
+    padding-top: 5px;
+
+    a img {
+        transition: 0s filter;
+
+        &:hover {
+            filter: opacity(0.1) drop-shadow(0 0 0 blue);
+            transition-delay: 0.1s;
+        }
+        
+    }
+    
+} 
+
+$redes:(
+    instagram: brightness(1) invert(100%),
+    twitter: brightness(1) invert(80%),
+);
+
+@each $red, $filtro in $redes {
+    .icono--#{$red}{
+        filter: $filtro;
+    }
+}
+
+.icono--linkedin {
+    filter: map-get($redes, instagram);
+}
+
+@mixin tamaños ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.insta {
+    @include tamaños (10px, 15px);
+}

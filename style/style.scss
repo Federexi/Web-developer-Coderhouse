@@ -1,0 +1,251 @@
+@import "variables";
+@import "generales";
+@import "navbar";
+@import "fondo";
+@import "section";
+@import "footer";
+
+
+/* Responsive*/
+
+
+/*Mobile*/
+@media screen and (min-width: 320px ) and (max-width: 682px) {
+
+    .tarjetas {
+        display: flex;
+        justify-content: center;
+    }
+  
+    nav {
+        margin-left: -44px;
+    }
+  
+    nav ul li a{
+        font-size: 13px;
+    }
+  
+    section {
+        margin-top: -150px;
+        margin-left: -2px;
+        display: grid;
+        grid-template-columns: 125px 170px;
+        grid-template-rows: 50px 50px 50px;
+        padding: 4px;
+    }
+  
+    section img {
+        width: 120px;
+        height: 60px;
+    }
+  
+    section h1 {
+        margin-top: 15px;
+        font-size: 22px;   
+    }
+  
+    section p {
+        font-size: 13px;
+        margin-top: 1px;
+    }
+  
+    section a {
+        margin-left: -5px;
+        padding: 11px 45px 0px 45px;
+    }
+  
+    section2 {
+        display: grid;
+        grid-template-columns: 125px 170px;
+        grid-template-rows: 50px 50px 50px;
+        padding: 4px;
+        margin-left: -2px;
+        margin-top: 15px;
+        padding-bottom: 40px;
+    }
+  
+    section2 img {
+        width: 70px;
+        height: 80px;
+    }
+  
+    section2 h2 {
+        margin-top: 15px;
+        font-size: 21px;   
+    }
+  
+    section2 p {
+        font-size: 13px;
+        margin-top: -4px;
+    }
+  
+    section2 a {
+        margin-left: -5px;
+        padding: 13px 40px 0px 35px;
+    }
+  }
+  
+  
+  /*Tablet*/
+  @media screen and (min-width: 683px) and (max-width: 768px) {
+  
+    .tarjetas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+  
+    nav {
+        margin-left: -44px;
+    }
+  
+    nav ul li a{
+        font-size: 16px;
+    }
+  
+    section {
+        margin-top: -130px;
+        margin-left: -350px;
+        display: grid;
+        grid-template-columns: 125px 170px;
+        grid-template-rows: 50px 50px 50px;
+        padding: 10px;
+    }
+  
+    section img {
+        width: 120px;
+        height: 60px;
+    }
+  
+    section h1 {
+        margin-top: 15px;
+        font-size: 22px;   
+    }
+  
+    section p {
+        font-size: 13px;
+        margin-top: 1px;
+    }
+  
+    section a {
+        margin-left: -5px;
+        padding: 11px 45px 0px 45px;
+    }
+  
+    section2 {
+        display: grid;
+        grid-template-columns: 125px 170px;
+        grid-template-rows: 50px 50px 50px;
+        margin-left: 350px;
+        padding: 4px;
+        margin-top: -130px;
+    }
+  
+    section2 img {
+        width: 70px;
+        height: 80px;
+    }
+  
+    section2 h2 {
+        margin-top: 15px;
+        font-size: 21px;   
+    }
+  
+    section2 p {
+        font-size: 13px;
+        margin-top: -4px;
+    }
+  
+    section2 a {
+        margin-left: -5px;
+        padding: 13px 40px 0px 35px;
+    }
+  }
+  
+  /*Laptop*/
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .tarjetas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+  
+    nav {
+        margin-left: -44px;
+    }
+  
+    nav ul li a{
+        font-size: 18px;
+    }
+  
+    section {
+        margin-top: -130px;
+        margin-left: -390px;
+        display: grid;
+        grid-template-columns: 145px 180px;
+        grid-template-rows: 50px 50px 50px;
+        padding: 4px;
+    }
+  
+    section img {
+        grid-column: 1/2;
+        grid-row: 1/4;
+        margin-left: 10px;
+        width: 120px;
+        height: 60px;
+        justify-content: center;
+        align-self: center;
+    }
+  
+    section h1 {
+        margin-left: -5px;
+        margin-top: 15px;
+        font-size: 24px;   
+    }
+  
+    section p {
+        font-size: 14px;
+        margin-left: -5px;
+        margin-top: 1px;
+    }
+  
+    section a {
+        margin-left: -8px;
+        padding: 13px 50px 0px 50px;
+    }
+  
+    section2 {
+        margin-top: -130px;
+        margin-left: 390px;
+        display: grid;
+        grid-template-columns: 145px 180px;
+        grid-template-rows: 50px 50px 50px;
+        padding: 4px;
+    }
+  
+    section2 img {
+        grid-column: 1/2;
+        grid-row: 1/4;
+        margin-left: 40px;
+        width: 70px;
+        height: 80px;
+        justify-content: center;
+        align-self: center;
+    }
+  
+    section2 h2 {
+        margin-top: 14px;
+        font-size: 22px;   
+    }
+  
+    section2 p {
+        font-size: 14px;
+        margin-top: -6px;
+    }
+  
+    section2 a {
+        margin-left: -5px;
+        padding: 13px 40px 0px 35px;
+    }
+}
