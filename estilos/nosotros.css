@@ -118,3 +118,29 @@ footer a img:hover {
     filter: opacity(0.4) drop-shadow(0 0 0 blue);
     transition-delay: 0.1s;
 }
+
+/* Receptive */
+/* Mobile */ 
+@media screen and (min-width: 390px) and (max-width: 680px) {
+    nav ul {
+        margin-left: -17px;
+    }
+    
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    #separar {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 681px) and (max-width: 1024px) {
+    nav ul li a {
+        font-size: 18px;
+    }
+    
+    #separar {
+        padding-bottom: 20px;
+    }
+}
