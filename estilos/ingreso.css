@@ -196,10 +196,10 @@ footer a img:hover {
 /*Receptive*/
 
 /*Mobile*/
-@media screen and (min-width: 320px) and (max-width: 560px) {
+@media screen and (min-width: 377px) and (max-width: 560px) {
     
     nav {
-        margin-left: -44px;
+        margin-left: -14px;
     }
 
     nav ul li a{
@@ -232,7 +232,11 @@ footer a img:hover {
     main form a {
         font-size: 13px;
     }
-    
+
+    .submit {
+        margin-right: 30px;
+    }
+
     .contraseña {
         margin-right: 0px;
     }
