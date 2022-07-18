@@ -179,3 +179,139 @@ footer a img:hover {
     filter: opacity(0.4) drop-shadow(0 0 0 blue);
     transition-delay: 0.1s;
 }
+
+/* Receptive*/
+/*Mobile, tablet y laptop*/
+@media screen and (min-width: 380px) and (max-width: 619px) {
+    .pres {
+        margin-left: 70px;
+    }
+
+    .apro {
+        margin-left: 70px;
+        margin-top: 15px;
+    }
+
+    .super-personal {
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+
+    .uva {
+        margin-left: 70px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .help {
+        display: none;
+    }
+
+    .navbar-brand.mb-0.b {
+        border-left: 0px solid #fff;
+    }
+
+    .b {
+        margin-left: 3000px;
+    }
+}
+
+@media screen and (min-width: 620px) and (max-width: 1024px) {
+    .pres {
+        margin-left: 70px;
+    }
+
+    .apro {
+        margin-left: 330px;
+        margin-top: -192px;
+    }
+
+    .super-personal {
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+
+    .uva {
+        margin-left: 330px;
+        margin-top: -192px;
+        margin-bottom: 40px;
+    }
+
+    .help {
+        display: none;
+    }
+
+    .navbar-brand.mb-0.b {
+        border-left: 0px solid #fff;
+    }
+
+    .b {
+        margin-left: 3000px;
+    }  
+} 
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    .pres {
+        margin-left: 120px;
+    }
+
+    .apro {
+        margin-left: 380px;
+        margin-top: -192px;
+    }
+
+    .super-personal {
+        margin-left: 120px;
+        margin-top: 10px;
+    }
+
+    .uva {
+        margin-left: 380px;
+        margin-top: -192px;
+        margin-bottom: 40px;
+    }  
+} 
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    .pres {
+        margin-left: 160px;
+    }
+
+    .apro {
+        margin-left: 410px;
+        margin-top: -192px;
+    }
+
+    .super-personal {
+        margin-left: 160px;
+        margin-top: 10px;
+    }
+
+    .uva {
+        margin-left: 410px;
+        margin-top: -192px;
+        margin-bottom: 40px;
+    }  
+} 
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+    .pres {
+        margin-left: 200px;
+    }
+
+    .apro {
+        margin-left: 450px;
+        margin-top: -192px;
+    }
+
+    .super-personal {
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+
+    .uva {
+        margin-left: 450px;
+        margin-top: -192px;
+        margin-bottom: 40px;
+    }  
+} 

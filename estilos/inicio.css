@@ -98,7 +98,7 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.card {
+.cuenta {
     border-radius: 15px;
     margin-left: 370px;
     box-shadow: 1px 1px 1px 1px rgb(148, 147, 147);
@@ -184,6 +184,8 @@ header {
 .tarjeta {
     margin-top: -338px;
     margin-left: 700px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgb(148, 147, 147);
 }
 
 .debito-negra {
@@ -237,6 +239,9 @@ header {
 .movimientos {
     margin-top: 20px;
     margin-bottom: 40px;
+    border-radius: 15px;
+    margin-left: 370px;
+    box-shadow: 1px 1px 1px 1px rgb(148, 147, 147);
 }
 
 .cuerpo {
